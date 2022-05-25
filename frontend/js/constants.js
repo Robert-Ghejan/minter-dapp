@@ -1,5 +1,5 @@
-const contractAddress = "0x4E99D0d3330af8be4F63222864f2E4A4578ae137"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xB0AD77206fc1E40d8baF5CF3F449C7c411B450dC"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the nox.ignis NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";

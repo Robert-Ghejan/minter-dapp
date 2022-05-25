@@ -48,7 +48,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'nox.ignis';
@@ -57,14 +57,14 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0x9154A58c7FBBA4319C21c994DEd5f53D87CbA6F9';
 const TREASURY_ADDRESS = '0x9154A58c7FBBA4319C21c994DEd5f53D87CbA6F9';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 15; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-25T10:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-05-25T10:30:48+00:00"; // Optional. Eg: 2022-07-07T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-26T10:30:48+00:00"; // Optional. Eg: 2022-07-07T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x9154A58c7FBBA4319C21c994DEd5f53D87CbA6F9"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -72,7 +72,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0x9154A58c7FBBA4319C21c994DEd5f53D87CbA6F9"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x4E99D0d3330af8be4F63222864f2E4A4578ae137"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xB0AD77206fc1E40d8baF5CF3F449C7c411B450dC"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
